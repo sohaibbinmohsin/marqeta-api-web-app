@@ -1,0 +1,97 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input { -webkit-user-select:text;}
+
+.logo{
+    font-size: 30px;
+    padding: 30px 0px;
+    font-weight: bold;
+    color: white;
+}
+
+.sign-up-heading{
+    color: #48464a;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sign-up-under{
+    color:#bcc2d2;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.name{
+    width: 180px;
+    padding: 20px 10px;
+    font-size: 18px;
+    color:#48464a;
+    height: 50px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid #bcc2d2;
+    margin-top: 15px;
+    outline: none;
+}
+
+.name::placeholder{
+    color: #bdc4d1;
+    font-size: 18px;
+}
+
+.name:focus{
+    border: 2px solid #3444fc;
+}
+
+.name.email{
+    width: 378px;
+}
+
+.name.profile{
+    width: 300px;
+}
+
+.name.profile.address{
+    width: 620px;
+}
+
+.sign-up-button{
+    width: 378px;
+    font-size: 18px;
+    color:white;
+    height: 50px;
+    border-radius: 10px;
+    background: #3444fc;
+    border: 0.001em solid #3444fc;
+    margin-top: 15px;
+}
+
+.amount{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bcc2d2;
+    height: 80px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    outline: none;
+}
+
+.amount:focus{
+    border: 0px;
+}
+
+.num{
+    margin: 0px;
+    border: 0px;
+    font-size: 25px;
+    margin: 0px 10px;
+    width: 78%;
+    outline: none;
+    color: #48464a;
+}
